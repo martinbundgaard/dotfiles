@@ -3,7 +3,7 @@ call pathogen#infect()
 " syntax highlighting
 " colorscheme bubblegum
 " colorscheme scheme
-set background=dark
+set background=light
 colorscheme solarized
 
 
