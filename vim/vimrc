@@ -1,13 +1,19 @@
+" init pathogen
 call pathogen#infect()
 
 " syntax highlighting
-" colorscheme bubblegum
+ colorscheme bubblegum
 " colorscheme scheme
-set background=light
-colorscheme solarized
+" set background=dark
+" colorscheme solarized
+" colorscheme zenburn
 
 
 syntax on
+
+
+" disable compatibility
+set nocompatible
 
 " sane cursor behavior (wrapping)
 set whichwrap+=<,>,h,l,[,]
@@ -27,6 +33,12 @@ set cindent
 
 " row and column position
 set ruler
+
+" status line
+set laststatus=2
+set statusline=\ %t\ [%{strlen(&fenc)?&fenc:'none'},\ %{&ff}]\ %h%m%r%y%=%l\ %P\ 
+
+
 
 " jump to last position
 au BufWinLeave * mkview

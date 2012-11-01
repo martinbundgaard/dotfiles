@@ -4,3 +4,9 @@
 [submodule "vim/bundle/easytags"]
 	path = vim/bundle/easytags
 	url = https://github.com/xolox/vim-easytags.git
+[submodule "vim/bundle/zenburn"]
+	path = vim/bundle/zenburn
+	url = https://github.com/vim-scripts/Zenburn.git
+[submodule "vim/bundle/bubblegum"]
+	path = vim/bundle/bubblegum
+	url = https://github.com/baskerville/bubblegum.git
